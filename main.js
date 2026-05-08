@@ -16,7 +16,7 @@ function checkLogin() {
 
     switch (result) {
         case "success":
-            window.alert("Welcome Golden!");
+            window.alert("Welcome Carreon!");
             break;
 
         case "wrong":
