@@ -17,6 +17,7 @@ function checkLogin() {
     switch (result) {
         case "success":
             window.alert("Welcome Carreon!");
+            window.location.href = "notebook.html";
             break;
 
         case "wrong":
@@ -30,4 +31,5 @@ function checkLogin() {
         default:
             window.alert("Unknown error");
     }
+
 }
