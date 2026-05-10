@@ -9,5 +9,52 @@
 }
 .innav {
     background-color: #353434;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
 
+.innav img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.innav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.innav ul li {
+    text-align: left;
+    padding: 10px 20px;
+
+}
+
+.innav a {
+    color: white;
+    text-decoration: none;
+}
+.card {
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #f7f7f7;
+}
+.custom-btn {
+    background-color: #d3d3d3;
+    border: none;
+    color: #333;
+    border-radius: 10px;
+}
+
+.custom-btn:hover {
+    background-color: #c0c0c0;
+}
+
+.indiv-vns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
